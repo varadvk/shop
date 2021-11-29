@@ -11,6 +11,26 @@ import com.eclinical.shop.service.UserService;
 
 import java.util.Scanner;
 
+/**
+ * Git link - https://github.com/varadvk/shop.git
+ * This is main class one should run
+ *
+ * @Description: There are 3 roles involved in this application.
+ * 1. admin
+ * 2. delivery executive
+ * 3. customer
+ * <p>
+ * Some users will automatically be created as soon as application starts.
+ * <p>
+ * One can use below credentials to login
+ * <p>
+ * To login as
+ * admin : username - admin and password - admin
+ * delivery executive : username - delivery and password - delivery
+ * customer : username - raj and password - raj
+ * <p>
+ * There is also option to register new user
+ */
 public class Main {
 
     private final UserService userService = new UserService();
